@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title> Notifications System </title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="icon" href="favicon.png" type="images/png">
+	
+	
+  </head>
+  <body>
+    <h1>Notifications System</h1>
+    <span id="wn-unsupported" class="hidden"></span>
+
+    <form id="custom-notification" action="">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" />
+
+      <label for="body">Body:</label>
+      <textarea id="body" name="body"></textarea>
+
+      <div class="buttons-wrapper">
+        <button id="Notification A" class="button-demo">Notification A</button>
+        <input type="submit" id="Notification B" class="button-demo" value="Notification B" />
+      </div>
+    </form>
+
+    <h3>Log</h3>
+    <div id="log"></div>
+    <button id="clear-log" class="button-demo">Clear log</button>
+	<script src="js.js"></script>
+
+  </body>
+</html>
